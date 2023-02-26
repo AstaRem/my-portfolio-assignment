@@ -54,7 +54,11 @@ ul {
 nav ul li a {
   color: var(--light-blue);
   font-weight: 700;
+}
 
+nav ul li a:hover {
+  color: ;
+  text-decoration: underline;
 }
 
 header {
@@ -120,8 +124,6 @@ main {
   display: grid;
   grid-template-columns: 1fr 4fr;
   margin: 2rem 0;
-  
-
 }
 
 #about h3, #work h3, #contact h3 {
@@ -131,6 +133,17 @@ main {
 
 #about p, #projects, #contact ul {
   margin-left: 2rem;
+}
+
+/* about me */
+img {
+  width: 10%;
+  padding-left: 1rem;
+}
+
+#about div {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Projects */
@@ -182,14 +195,19 @@ main {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   padding-left: 0.7rem;
+  color: var(--dark);
+}
+
+#projects article:hover {
+  position: relative;
+  bottom: -2px;
+  left: -2px;
+  box-shadow: 10px 5px 5px var(--dark);
 }
 
 .project-name p {
   font-size: 0.8rem;
 }
-
-
-
 
 /* contact */
 ul {
@@ -208,4 +226,10 @@ ul {
 #contact ul li a {
   color: var(--dark);
 }
+
+#contact ul li a:hover {
+  text-decoration: underline;
+}
+
+
 
