@@ -12,7 +12,7 @@
     ![Tablet view](img-readme/Tablet1.png)
     ![Tablet view](img-readme/Tablet2.png)
     ![Tablet view](img-readme/Tablet3.png)
-    
+
 - **Desktop view**:
     ![Desktop view](img-readme/Desktop1.png)
     ![Desktop view](img-readme/Desktop2.png)
@@ -20,6 +20,12 @@
 
 
 - purpose of this project - to practice CSS: flexbox, grid, make them work together.
+- when navigation link is clicked, it takes user to relevant section.
+- when Resume link is clicked, it takes user to my Github site(it opens in new window) where user can download my Resume PDF file.
+- when user mouse hovers over project tile, it gives impression the card is lifted.
+- when user clicks on the project card, it takes to external website, link opens in new window.
+
+## My observation
 - what I learned that it is worth to take time in the beginning and plan how I will achieve the desired results, which properties I will use.
 -  when building next similar project, it is worth to start coding from mobile view first, and desktop after.
 
