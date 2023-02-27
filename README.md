@@ -15,7 +15,7 @@
 
 - **Desktop view**:
     ![Desktop view](img-readme/desktop1.png)
-    ![Desktop view](img-readme/desktop2.png)
+    ![Desktop view](img-readme/Desktop2.PNG)
     ![Desktop view](img-readme/desktop3.png)
 
 
