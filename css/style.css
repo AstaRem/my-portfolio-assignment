@@ -36,8 +36,8 @@ h3 {
 
 a {
   text-decoration: none;
-
 }
+
 
 /* Header */
 h1 {
@@ -131,19 +131,25 @@ main {
   border-right: 2px var(--dark) solid;
 }
 
-#about p, #projects, #contact ul {
+#about div, #projects, #contact ul {
   margin-left: 2rem;
 }
 
 /* about me */
-img {
+.image-container {
   width: 10%;
-  padding-left: 1rem;
+}
+
+img {
+  width: 100%;
+  margin: 20px;
+  border-radius: 8px;
 }
 
 #about div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* Projects */
@@ -185,6 +191,7 @@ img {
   background-repeat: no-repeat; 
   background-size: cover; 
   margin: 1rem;
+  border-radius: 8px;
 }
 
 .project-name {
@@ -200,9 +207,12 @@ img {
 
 #projects article:hover {
   position: relative;
-  bottom: -2px;
-  left: -2px;
-  box-shadow: 10px 5px 5px var(--dark);
+  bottom: 4px;
+  left: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,1);
+  /* transition: opacity 5s; */
+  transition-timing-function: ease-in-out ;
+
 }
 
 .project-name p {
@@ -210,7 +220,7 @@ img {
 }
 
 /* contact */
-ul {
+#contact ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -229,6 +239,86 @@ ul {
 
 #contact ul li a:hover {
   text-decoration: underline;
+}
+
+/* Media queries */
+/* mobile */
+@media screen and (max-width: 600px){
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.hero-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .page-section {
+    grid-template-columns: 1fr;
+  }
+
+  #about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* #about div img {
+    flex-shrink: 1;
+  } */
+
+  #about h3, #work h3, #contact h3, img {
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+  }
+
+  #projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "project1"
+        "project2"
+        "project3"
+        "project4"
+        "project5";
+    margin: 0;
+  }
+
+  #contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+/* tablet */
+@media screen and (max-width: 800px){
+  #about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .page-section {
+    grid-template-columns: 1fr;
+  }
+
+  #about h3, #work h3, #contact h3, img {
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+  }
+
+  
+  
 }
 
 
