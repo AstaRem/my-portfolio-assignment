@@ -9,14 +9,14 @@
     ![Mobile view](img-readme/mobile3.png)
 
 - **Tablet view:**
-    ![Tablet view](img-readme/Tablet1.png)
-    ![Tablet view](img-readme/Tablet2.png)
-    ![Tablet view](img-readme/Tablet3.png)
+    ![Tablet view](img-readme/tablet1.png)
+    ![Tablet view](img-readme/tablet2.png)
+    ![Tablet view](img-readme/tablet3.png)
 
 - **Desktop view**:
-    ![Desktop view](img-readme/Desktop1.png)
-    ![Desktop view](img-readme/Desktop2.png)
-    ![Desktop view](img-readme/Desktop3.png)
+    ![Desktop view](img-readme/desktop1.png)
+    ![Desktop view](img-readme/desktop2.png)
+    ![Desktop view](img-readme/desktop3.png)
 
 
 - purpose of this project - to practice CSS: flexbox, grid, make them work together.
