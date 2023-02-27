@@ -4,9 +4,9 @@
 
 - I have built this website as a starting point to my portfolio.
 - **Mobile view:**
-    ![Mobile view](img-readme/mobile1.png)
-    ![Mobile view](img-readme/mobile2.png)
-    ![Mobile view](img-readme/mobile3.png)
+    ![Mobile view](img-readme/mobile1.PNG)
+    ![Mobile view](img-readme/mobile2.PNG)
+    ![Mobile view](img-readme/Mobile3.PNG)
 
 - **Tablet view:**
     ![Tablet view](img-readme/Tablet1.PNG)
@@ -14,9 +14,9 @@
     ![Tablet view](img-readme/Tablet3.PNG)
 
 - **Desktop view**:
-    ![Desktop view](img-readme/desktop1.png)
+    ![Desktop view](img-readme/desktop1.PNG)
     ![Desktop view](img-readme/Desktop2.PNG)
-    ![Desktop view](img-readme/desktop3.png)
+    ![Desktop view](img-readme/desktop3.PNG)
 
 
 - purpose of this project - to practice CSS: flexbox, grid, make them work together.
