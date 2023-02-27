@@ -9,9 +9,9 @@
     ![Mobile view](img-readme/mobile3.png)
 
 - **Tablet view:**
-    ![Tablet view](img-readme/tablet1.png)
-    ![Tablet view](img-readme/tablet2.png)
-    ![Tablet view](img-readme/tablet3.png)
+    ![Tablet view](img-readme/Tablet1.PNG)
+    ![Tablet view](img-readme/tablet2.PNG)
+    ![Tablet view](img-readme/Tablet3.PNG)
 
 - **Desktop view**:
     ![Desktop view](img-readme/desktop1.png)
