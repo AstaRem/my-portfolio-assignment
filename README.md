@@ -14,9 +14,9 @@
     ![Tablet view](img-readme/Tablet3.PNG)
 
 - **Desktop view**:
-    ![Desktop view](img-readme/desktop1.PNG)
+    ![Desktop view](img-readme/Desktop1.PNG)
     ![Desktop view](img-readme/Desktop2.PNG)
-    ![Desktop view](img-readme/desktop3.PNG)
+    ![Desktop view](img-readme/Desktop3.PNG)
 
 
 - purpose of this project - to practice CSS: flexbox, grid, make them work together.
